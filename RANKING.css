@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+    background-image: url("abstract-3d-black-techno-background-overlap-layers-on-dark-space-with-blue-light-arrow-effect-decoration-modern-design-template-element-style-for-flyer-card-cover-brochure-or-landing-page-vector.jpg");
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.m1 {
+    margin-bottom: 20px;
+}
+
+.m0{
+    background-color: white;
+    border-radius: 18px;
+}
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    transition: 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}

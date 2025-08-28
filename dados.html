@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dados</title>
+</head>
+<body>
+    <h1>Via promp/Alert</h1>
+    <button onclick="inicia()">Clique aqui</button>
+    <script>
+        function inicio(){
+            let nome = window.prompt("Qual é o seu nome?")
+            window.alert("Ola $(nome)! ")
+        }
+    </script>
+    <h1>Via prompt, inserindo na página</h1>
+    <button onclick="inicio2()">Clique que começar</button>
+    <section id="resultado">
+        <p>Aqui vai aparecer o resultado...</p>
+    </section>
+    <script>
+        function inicia2(){
+            let nome2 =window.prompt("Qual é o seu nome?")
+            let res2 = window.document.getElementById("resultado")
+            res2.innerHTML= `<p>Olá, <strong>${nome2}</strong>! É um grande prezer te conhecer! &#x1F596;`
+        }
+    </script>
+</body>
+</html>

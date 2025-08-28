@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="entrada">
+        <form action="#" method="get" onsubmit="return false;">
+            <label for="fnum">Valor final: </label>
+            <input type="text" name="texto" id="fnum" placeholder="Digite um texto">
+            <input type="button" value="capturar" onclick="captura()">
+        </form>
+    </section>
+    <section id="saida">
+        <p>Preencha os dados acima e aperte o botão.</p>
+    </section>
+    <script>
+        function captura(){
+            let saida = document.getElementById('saida');
+            let nome = document.getElementById('fnum').value;
+            saida.innerHTML = `${nome}`;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+
+.playfair-display-uniquifier {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+header{
+    background-color:aqua ;
+    height: 50px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m1{
+    background-color: blue;
+    /* width: 300px; */
+    height: 500px;
+    background-image: url("blue-gradient-background-07xqmk2r9n9vmxli.jpg");
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      flex-direction: column;
+    
+}
+.m2{
+    background-image: url("blue-gradient-background-8b28ictpssrjqb2x.jpg");
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+     display: flex; 
+     text-align:left;
+     color: aliceblue;
+   flex-direction: column;
+    
+}
